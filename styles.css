@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.course-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-basis: 200px;
+  border-right: 1px solid #ccc;
+  padding-right: 20px;
+}
+
+.course-list li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.lessons-container {
+  flex: 1;
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
